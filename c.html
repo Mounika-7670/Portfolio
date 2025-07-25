@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+<body>
+   
+    <!-- Navbar Section -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">My portfolio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="c.html">Certifications</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Certifications Section (Below the Navbar) -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="IMG-20240724-WA0011.jpg" alt="Certificate 1">
+              
+            </div>
+            <div class="certificate">
+                <img src="IMG-20240724-WA0010.jpg" alt="Certificate 2">
+             
+            </div>
+            <div class="certificate">
+                <img src="sp.jpg" alt="Certificate 3">
+                
+            </div>
+            <div class="certificate">
+                <img src="IMG-20240724-WA0007.jpg" alt="Certificate 4">
+               
+            </div>
+            <div class="certificate">
+                <img src="p1.jpg" alt="Certificate 5">
+               
+            </div>
+            <div class="certificate">
+                <img src="IMG-20240724-WA0001.jpg" alt="Certificate 6">
+               
+            </div>
+            <div class="certificate">
+                <img src="IMG-20240724-WA0009.jpg" alt="Certificate 7">
+              
+            </div>
+            <div class="certificate">
+                <img src="p.jpg" alt="Certificate 8">
+              
+            </div>
+        </div>
+    </section>
+
+    <script>
+      // For Navbar Toggle on Mobile
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    </script>
+</body>
+</html>
